@@ -31,7 +31,7 @@ This is a **React** app that uses **Leaflet** to display user profiles and their
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/your-username/profile-map-app.git
+   git clone https://github.com/chiru4c3/user-map-app.git
 
 2. Install dependencies:
 Navigate to the project directory and install the necessary dependencies:

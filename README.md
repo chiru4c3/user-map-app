@@ -54,42 +54,30 @@ Once the app is running, open your browser and navigate to http://localhost:5173
 Key Components:
 MapView
 Displays the interactive map using Leaflet.
-
 Renders user location markers and popups when users are selected.
-
 Includes error handling and loading indicators.
 
 AdminPanel
 Allows the admin to add and delete users.
-
 Displays a list of all users and their details.
 
 UserCard
 Represents individual user profiles displayed on the landing page.
-
 Includes a Summary button to show more details and the user’s location on the map.
 
 LandingPage
 Displays a list of user profiles with search and filter functionality.
-
 Allows users to click on a profile to view more details on the map.
 
 Error Handling:
 The app provides the following error handling features:
-
 Map Loading Error: If the map fails to load, an error message is shown.
-
 Geolocation Data Error: If a user's location data is missing, an error message will be displayed.
-
 Form Validation: Ensures that all required fields in the admin panel are filled before submitting.
 
 Future Improvements:
 Map Services Integration: Switch from Leaflet to Google Maps or Mapbox for enhanced map features.
-
 Authentication: Add user authentication to secure the Admin Panel.
-
 User Profiles: Expand the user profile with additional fields like contact information, interests, and social media links.
-
 Pagination: Add pagination or infinite scroll for a large number of user profiles.
-
 Dark Mode: Implement a dark mode toggle for a better user experience.
